@@ -1,6 +1,5 @@
 """Transaction"""
 from collections import OrderedDict
-
 from utility.printable import Printable
 
 
@@ -13,7 +12,6 @@ class Transaction(Printable):
         :signature: The signature of the transaction.
         :amount: The amount of coins sent.
     """
-
     def __init__(self, sender, recipient, signature, amount):
         self.sender = sender
         self.recipient = recipient
